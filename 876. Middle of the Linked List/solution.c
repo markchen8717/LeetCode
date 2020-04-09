@@ -6,8 +6,11 @@
  * };
  */
 /*
-  Initialize an empty array to hold ListNode pointers. Traverse the linked list, and store the pointer in the array, keeping
-  count of the number of nodes in the list, and finally returning the appropriate middle element in the array. 
+  Initialize an empty array to hold ListNode pointers. Traverse the linked list, and store the pointer in the array. Keeping
+  count of the number of nodes in the list, finally, returning the appropriate middle element in the array. 
+  
+  Time complexity : O(N) for traversing the linked list of N nodes
+  Memory complexity : O(N) for storing the array of ListNode pointers
 */
 
 struct ListNode* middleNode(struct ListNode* head){
